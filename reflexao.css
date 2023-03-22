@@ -1,0 +1,198 @@
+@charset "UTF - 8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+
+:root{
+    --fonte1: 'Times New Romam', Times, serif;
+    --fonte2: 'Passion Conflict', cursive; 
+}
+
+html, body{
+    font-family: var(--fonte1);
+    background-color: darkgray;
+    min-height: 100vh;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 5vw;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+section{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    line-height: 1.5em;
+    font-family: var(--fonte2);
+    font-size: 3vw;
+    padding-left: 10px;
+}
+section > p{
+    padding-bottom: 2em;
+}
+section.t1{
+    background-color: whitesmoke;
+    color: black;
+}
+section.t2{
+    background-color: rgb(50, 50, 50);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.475);
+    background-attachment: fixed;
+}
+section.t1 > p{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.535);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.47);
+}
+
+section.t2 > p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.341); 
+    text-shadow: 2px 2px 0px black;
+}
+
+span{
+    text-decoration: underline;
+    font-weight: bold;
+}
+span > span.insof{
+    display: none;
+}
+span:hover > span.insof{
+    display: inline-block;
+    background-color: rgba(241, 158, 158, 0.473);
+}
+
+span > span.padrao{
+    display: none;
+}
+span:hover > span.padrao{
+    display: inline-block;
+    background-color: rgba(241, 158, 158, 0.473);
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+span > span.cena{
+    display: none;
+}
+span:hover > span.cena{
+    display: inline-block;
+    background-color: rgba(241, 158, 158, 0.473);
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+span > span.perene{
+    display: none;
+}
+span:hover > span.perene{
+    display: inline-block;
+    background-color: rgba(241, 158, 158, 0.473);
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+
+section#um{
+    background-image: url('imagens/pensando.png');
+    background-position: right center;
+    background-size: cover;
+}
+section#dois{
+    background-image: url('imagens/bens-materiais.png');
+    background-size: cover;
+}
+section#tres{
+    background-image: url('imagens/tempo.png');
+    background-size: cover;
+}
+section#quatro{
+    background-image: url('imagens/fases-da-vida.png');
+    background-size: cover;
+}
+section#cinco{
+    background-image: url('imagens/passagem-do-tempo.png');
+    background-size: cover;
+}
+section#seis{
+    background-image: url('imagens/relogio-do-tempo.png');
+    background-size: cover;
+}
+section#sete{
+    background-image: url('imagens/contemplacao.png');
+    background-size: cover;
+}
+section#oito{
+    background-image: url('imagens/saindo-do-corpo.png');
+    background-size: cover;
+}
+section#nove{
+    background-image: url('imagens/transmigração-da-alama.png');
+    background-size: cover;
+}
+section#dez{
+    background-image: url('imagens/questionando.png');
+    background-size: cover;
+}
+section#onze{
+    background-image: url('imagens/breu.png');
+    background-size: cover;
+}
+section#doze{
+    background-image: url('imagens/luz-na-escuridao.png');
+    background-size: cover;
+}
+section#treze{
+    background-image: url('imagens/mundo.png');
+    background-size: cover;
+}
+section#catorze{
+    background-image: url('imagens/pista.png');
+    background-size: cover;
+}
+section#quinze{
+    background-image: url('imagens/luz-na-escuridao1.png');
+    background-size: cover;
+}
+section#dezesseis{
+    background-image: url('imagens/libertando-se.png');
+    background-size: cover;
+}
+section#dezessete{
+    background-image: url('imagens/cena.png');
+    background-size: cover;
+}
+section#dezoito{
+    background-image: url('imagens/garrafas.png');
+    background-size: cover;
+}
+section#dezenove{
+    background-image: url('imagens/eu-interior.png');
+    background-size: cover;
+}
+section#vinte{
+    background-image: url('imagens/uddhava.png');
+    background-size: cover;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+
+}
